@@ -43,14 +43,14 @@ class RoadStressConfig(Config):
     # Number of training steps per epoch
     STEPS_PER_EPOCH = 100
 
-    # Skip detections with < 90% confidence
-    DETECTION_MIN_CONFIDENCE = 0.9
+    # Skip detections with < 70% confidence
+    DETECTION_MIN_CONFIDENCE = 0.7
 
     RPN_ANCHOR_SCALES = (8, 16, 32, 64, 128)
 
-    TRAIN_ROIS_PER_IMAGE = 512
-    DETECTION_MAX_INSTANCES = 512
-    MAX_GT_INSTANCES = 256
+    TRAIN_ROIS_PER_IMAGE = 100
+    DETECTION_MAX_INSTANCES = 256
+    MAX_GT_INSTANCES = 512
 
     IMAGE_MIN_DIM = 1024
     IMAGE_MAX_DIM = 1024
