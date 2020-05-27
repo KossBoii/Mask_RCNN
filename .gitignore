@@ -1,7 +1,8 @@
 # Data files and directories common in repo root
 #datasets/
 logs/
-*.h5
+#*.h5
+mask_rcnn_coco.h5
 results/
 temp/
 test/
