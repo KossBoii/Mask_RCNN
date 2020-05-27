@@ -4,6 +4,7 @@ import json
 import datetime
 import numpy as np
 import skimage.draw
+import imgaug
 import tensorflow as tf
 
 # Root directory of the project
